@@ -1,0 +1,19 @@
+.left{
+	text-align: left;
+
+}
+
+.right{
+	text-align: right;
+}
+
+.red{
+	color: red;
+}
+
+table,th,td{
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+}

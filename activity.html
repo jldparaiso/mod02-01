@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Activity Form</title>
+</head>
+
+
+<body>
+<form>
+<fieldset>
+			<legend>Your Details</legend>
+			<label>Name: 
+				<input type="text"></input>
+			</label>
+			<br>
+			<label for="email">Email: </label>
+			<input id="email" type="email" name="email"></input>
+		</fieldset>
+<br>
+
+<fieldset>
+			<legend>Your Review</legend>
+			<h2></h2>
+			<p>How did you hear about us?
+				<select name="options">
+					<option value="Google" checked>Google</option>
+					<option value="Facebook">Facebook</option>
+					<option value="Linkdn">Linkdn</option>
+				</select>
+			</p>
+			<h2></h2>
+			<p>Would you visit us again?</p>
+			<input type="radio" name="response" value="yes">Yes
+			<input type="radio" name="response" value="no">No
+			<input type="radio" name="response" value="maybe">Maybe
+			</p><br>
+			
+			<label>Comments:</label>
+			<br>
+			<textarea name="comments" rows="5" cols="50"></textarea>
+
+			<h2></h2>
+
+			<input type="checkbox" name="confirm" value="apple">Sign me up for email updates</input>
+
+			<br>
+
+			<input type="submit" name="submit" value="Submit Review">
+
+		</fieldset>
+</form>
+
+
+</body>
+</html>
